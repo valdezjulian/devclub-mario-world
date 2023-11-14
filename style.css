@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4px;
+
+}
+
+.logo-image {
+
+    width: 400px;
+    position: relative;
+    bottom: 100px;
+}
+
+.logo-image2 {
+
+    height: 600px;
+}
+
+.caixa-principal {
+
+    width: 50%;
+}
+
+.video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+p {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 5px;
+    font-family: poppins;
+}
+
+button {
+    height: 50px;
+    border-radius: 5px;
+    width: 300px;
+    background: rgb(202, 73, 73);
+    border: none;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-left: 240px;
+}
+
+.formulario {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+    position: fixed;
+    left: -560px;
+    transition: left 1s linear;
+    z-index: 4;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+input {
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color: blueviolet;
+}
+
+textarea {
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color: blueviolet;
+    padding: 10px;
+}
+
+.mascara-form {
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
